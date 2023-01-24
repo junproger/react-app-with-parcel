@@ -1,0 +1,8 @@
+{
+  "name": "parcel-bundler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Junior Programmer <junproger@gmail.com>",
+  "git": "https://github.com/junproger",
+  "license": "MIT"
+}
