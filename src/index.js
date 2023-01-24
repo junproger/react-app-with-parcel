@@ -1,3 +1,9 @@
-"use strict";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-console.log("Start Parcel Build!");
+import { App } from "./Apps/App";
+
+const container = document.getElementById("container");
+const root = ReactDOM.createRoot(container);
+
+root.render(<App />);
