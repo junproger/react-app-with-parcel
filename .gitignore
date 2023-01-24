@@ -8,8 +8,12 @@
 # testing
 /coverage
 
+# parcel bundler
+/.parcel-cache
+
 # production
 /build
+/dist
 
 # misc
 .DS_Store

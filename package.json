@@ -1,10 +1,17 @@
 {
   "name": "parcel-bundler",
   "version": "1.0.0",
+  "description": "parcel bundler",
   "main": "index.js",
+  "source": "src/index.html",
   "author": "Junior Programmer <junproger@gmail.com>",
   "git": "https://github.com/junproger",
   "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "watch": "parcel watch src/index.html"
+  },
   "devDependencies": {
     "parcel": "^2.8.3"
   }
