@@ -2,14 +2,19 @@
   "name": "parcel-bundler",
   "version": "1.0.0",
   "description": "parcel bundler",
-  "source": "src/index.html",
-  "author": "Junior Programmer <junproger@gmail.com>",
+  "author": "Junproger <junproger@gmail.com>",
   "github": "https://github.com/junproger",
   "license": "MIT",
+  "source": "./src/index.html",
+  "targets": {
+    "default": {
+      "distDir": "./build"
+    }
+  },
   "scripts": {
-    "start": "parcel serve src/index.html --open",
-    "build": "parcel build src/index.html --dist-dir build",
-    "watch": "parcel watch src/index.html"
+    "start": "parcel --open",
+    "build": "parcel build",
+    "watch": "parcel watch"
   },
   "devDependencies": {
     "parcel": "^2.8.3",
