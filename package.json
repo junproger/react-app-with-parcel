@@ -12,9 +12,9 @@
     }
   },
   "scripts": {
-    "start": "parcel --open",
-    "build": "parcel build",
-    "watch": "parcel watch"
+    "start": "parcel serve --open",
+    "build": "parcel build --public-url ./",
+    "watch": "parcel watch ./src/index.html"
   },
   "devDependencies": {
     "parcel": "^2.8.3",
