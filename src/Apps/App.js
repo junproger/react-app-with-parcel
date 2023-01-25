@@ -1,3 +1,5 @@
+import { Count } from "./../Components/Count"
+
 export const App = () => {
   return (
   <>
@@ -7,6 +9,7 @@ export const App = () => {
     <p>
       This pure React.js + Parcel.js bundler.
     </p>
+    <Count />
   </>
   );
 };
