@@ -6,3 +6,13 @@ body {
   box-sizing: border-box;
   background-color: black;
 }
+#container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+.appTitle {
+  color: wheat;
+  text-align: center;
+}
