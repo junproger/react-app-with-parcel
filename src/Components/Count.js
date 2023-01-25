@@ -14,6 +14,9 @@ export const Count = () => {
 
   return (
     <div>
+      <h2>
+        Counter Value: 
+      </h2>
       <p>
         <input 
           size="24" 
