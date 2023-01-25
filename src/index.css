@@ -6,7 +6,7 @@ body {
   box-sizing: border-box;
   background-color: black;
 }
-#container {
+.container {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
