@@ -21,8 +21,9 @@ export const Count = () => {
         <input 
           size="24" 
           type="text" 
-          ref={inpRef}
-          defaultValue="0" 
+          ref={inpRef} 
+          value="0" 
+          readOnly 
         />
       </p>
       <button 

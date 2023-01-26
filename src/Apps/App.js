@@ -1,5 +1,4 @@
 import { Count } from "./../Components/Count";
-
 import { Refer } from "./../Components/Refer";
 
 export const App = () => {
@@ -9,7 +8,7 @@ export const App = () => {
       Hello, World!
     </h1>
     <p>
-      This pure React.js + Parcel.js bundler.
+      The pure React.js + Parcel.js bundler.
     </p>
     <Count />
     <Refer />
