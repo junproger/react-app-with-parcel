@@ -5,10 +5,10 @@ export const App = () => {
   return (
   <>
     <h1 className="appTitle">
-      Hello, World!
+      The pure React.js + Parcel.js bundler.
     </h1>
     <p>
-      The pure React.js + Parcel.js bundler.
+      Counter on input and on span element with React Hooks useRef.
     </p>
     <Count />
     <Refer />
